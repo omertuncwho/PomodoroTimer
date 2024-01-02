@@ -1,0 +1,75 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f08080;
+}
+
+.container {
+    text-align: center;
+}
+
+.timer-container {
+    position: relative;
+    background-color: #e74c3c;
+    padding: 20px;
+    border-radius: 10px;
+    width:220px;
+    margin: 0 auto;
+}
+.signature {
+    color: #fff;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: block;
+    color: #fff;
+}
+
+input {
+    border-radius: 5px;
+    border-color:transparent;
+    font-size: 1em;
+    padding: 8px;
+    margin-bottom: 15px;
+    width: 120px;
+}
+
+#timerDisplay {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+.start-btn {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.start-btn:hover {
+    background-color: #a5281a;
+}
+
+.reset-btn {
+    background-color: #c0392b;
+    color: #fff;
+}
+
+.reset-btn:hover {
+    background-color: #a5281a;
+}

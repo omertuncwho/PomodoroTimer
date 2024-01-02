@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.0/dist/canvas-confetti.umd.min.js"></script>
+    <title>Pomodoro App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="timer-container">
+            <label for="pomodoroTime">Pomodoro Time (minutes): </label>
+            <input type="number" id="pomodoroTime" min="1" max="60" value="25">
+            <br>
+            <label for="breakTime">Break Time (minutes): </label>
+            <input type="number" id="breakTime" min="1" max="60" value="5">
+            <br>
+            <div id="timerDisplay">25:00</div>
+            <button id="startButton" class="btn start-btn">Start</button>
+            <button id="resetButton" class="btn reset-btn">Reset</button>
+        </div>
+        <p class="signature">© 2024, omertuncwho</p>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
